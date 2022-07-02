@@ -5,6 +5,14 @@
     font-family: "Source Sans Pro", sans-serif, arial;
 }
 
+h1 {
+    font-size: 6rem;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
 /*Header*/
 header {
     min-height: 100vh;
@@ -71,7 +79,6 @@ nav .nav-links ul li a {
 }
 
 .title h1 {
-    font-size: 5rem;
     text-transform: uppercase;
 }
 
@@ -103,4 +110,36 @@ nav .nav-links ul li a {
 .title button:hover {
     background-color: transparent;
     transition: 0.6s;
+}
+
+.courses {
+    width: 80%;
+    margin: 8rem auto;
+    text-align: center;
+}
+
+.courses p {
+    font-size: 2rem;
+}
+
+.course {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3rem auto;
+}
+
+.course article {
+    width: 30%;
+    margin: 0 1rem;
+    padding: 2rem 1rem;
+    background-color: #fff3f3;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.course article:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
