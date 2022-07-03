@@ -21,11 +21,15 @@ h4 {
     text-transform: capitalize;
 }
 
+P {
+    margin: 2rem auto;
+}
+
 /*Header*/
 body > header {
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/banner.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(images/banner.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -87,17 +91,17 @@ nav .nav-links ul li a {
 }
 
 .title h1 {
+    color: #fff;
+    margin: 2rem auto;
     text-transform: uppercase;
 }
 
 .title p {
+    color: #fff;
     font-size: 2rem;
-    width: 70%;
-}
-
-.title h1, p {
-    color: #000;
-    margin: 2rem auto;
+    width: 50%;
+    line-height: 3rem;
+    text-align: justify;
 }
 
 .title button {
@@ -247,4 +251,37 @@ section p {
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
+}
+
+.contacts {
+    background-image : linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(images/banner2.jpg);
+    padding: 10rem 1rem;
+}
+
+.contacts-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts .contacts-header h3 {
+    color: #fff;
+}
+
+.contacts .contacts-header a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fff;
+    padding: 1.5rem 2rem;
+    border: 1px solid #fff;
+    margin: 3rem 0;
+    width: 10rem;
+}
+
+.contacts-header a:hover {
+    background-color: #cc0000;
+    border: none;
+    outline: none;
+    transition: .8s;
 }
