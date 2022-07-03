@@ -11,9 +11,11 @@ h1 {
 
 h3 {
     font-size: 4rem;
+    margin: 1.6rem auto;
+    text-transform: capitalize;
 }
 
-h3 {
+h4 {
     font-size: 3rem;
     margin: 1.6rem auto;
     text-transform: capitalize;
@@ -219,4 +221,30 @@ section p {
 
 .facilities-items article p {
     margin: 0;
+}
+
+.students {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem auto;
+}
+
+.students article {
+    width: 45%;
+    border-radius: 0.8rem;
+    background-color: #f3f3f3;
+    padding: 2rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.students article:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.students article img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
 }
