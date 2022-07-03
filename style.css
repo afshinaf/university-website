@@ -43,22 +43,22 @@ nav {
     padding: 2rem 4rem;
 }
 
-nav .nav-logo {
+.nav-logo {
     width: 25%;
 }
 
-nav .nav-links {
+.nav-links {
     flex: 1;
     text-align: left;
 }
 
-nav .nav-links ul {
+.nav-links ul {
     list-style: none;
     display: flex;
     justify-content: end;
 }
 
-nav .nav-links ul li {
+.nav-links ul li {
     padding: 0 4rem;
 }
 
@@ -72,11 +72,11 @@ nav .nav-links ul li::after {
     transition: 0.7s ease-in-out;
 }
 
-nav .nav-links ul li:hover::after {
+.nav-links ul li:hover::after {
     width: 100%;
 }
 
-nav .nav-links ul li a {
+.nav-links ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1.8rem;
@@ -284,4 +284,33 @@ section p {
     border: none;
     outline: none;
     transition: .8s;
+}
+
+footer {
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 6rem 10rem;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer hr {
+    margin: 8rem auto;
+    width: 60%;
+}
+
+footer .icons i, footer p {
+    color: #fff;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+footer .icons, .social-media {
+    text-align: center;
 }
